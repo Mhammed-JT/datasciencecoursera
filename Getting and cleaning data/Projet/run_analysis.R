@@ -37,6 +37,6 @@ run_analysis <- function()
   #create a tidy data
   meltdata <- melt(mdata,id.vars=c("subject","Activityname"))
   tidydata <- dcast(meltdata, subject + Activityname ~ variable, fun.aggregate = mean, na.rm=T)
-  write.table(tidydata,"Tidydata.txt",quote = FALSE,row.names = FALSE)
+  write.table(tidydata,"Tidydata.txt",quote = FALSE,row.names  = FALSE)
   
 }
