@@ -9,7 +9,7 @@ output: html_document
 ## Script analysis
 - I downloaded data and i loaded the files using read.table function
 - I exctract only the mean and std measurement from both train and test data
-- I joined subject and activities to both train and test data using cband function
+- I joined subject and activities to both train and test data using cbind function
 - Finally i merged test and train data and i created a tidy data by calculting the mean for each variable for each activity and each subject
 
 ## Project goal
