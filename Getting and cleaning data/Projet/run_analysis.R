@@ -1,7 +1,7 @@
 run_analysis <- function()
 {
   library(reshape2)
-  
+  library(plyr)
   #load activity and features files
   activityLabels <- read.table("./UCI HAR Dataset/activity_labels.txt",col.names = c("index","activityname"))
   features <- read.table("./UCI HAR Dataset/features.txt",col.names = c("index","featurename"))
