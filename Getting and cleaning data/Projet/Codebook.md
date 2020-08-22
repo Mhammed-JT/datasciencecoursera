@@ -10,7 +10,7 @@ output: html_document
 Every name used in the tidy data is correponding to the data description in README.txt file in the project file (UCI HAR Dataset)
 
 ## Data description
-
+You can found data description here [UCI Machine Learning Repository](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 
 ## Data Set Information:
 
